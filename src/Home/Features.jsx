@@ -46,7 +46,7 @@ export default function Features() {
       {/* Feature Buttons */}
       <div className="grid lg:grid-cols-3 gap-6 justify-items-center">
         <button
-          className="h-[130px] w-[400px] flex justify-center items-center border border-[#c8c8c8] rounded-[15px] cursor-pointer transition-all duration-300 hover:translate-y-[-5px] hover:shadow-2xl hover:border-[#4179f4]"
+          className="h-[130px] w-[370px] flex justify-center items-center border border-[#c8c8c8] rounded-[15px] cursor-pointer transition-all duration-300 hover:translate-y-[-5px] hover:shadow-2xl hover:border-[#4179f4]"
           onClick={() => setOpen(true)}
         >
           <div className="flex items-center">
@@ -59,7 +59,7 @@ export default function Features() {
         </button>
 
         <button
-          className="h-[130px] w-[400px] flex justify-center items-center border border-[#c8c8c8] rounded-[15px] cursor-pointer transition-all duration-300 hover:translate-y-[-5px] hover:shadow-2xl hover:border-[#4179f4]"
+          className="h-[130px] w-[370px] flex justify-center items-center border border-[#c8c8c8] rounded-[15px] cursor-pointer transition-all duration-300 hover:translate-y-[-5px] hover:shadow-2xl hover:border-[#4179f4]"
           onClick={() => setOpen(true)}
         >
           <div className="flex items-center">
@@ -72,7 +72,7 @@ export default function Features() {
         </button>
 
         <button
-          className="h-[130px] w-[400px] flex justify-center items-center border border-[#c8c8c8] rounded-[15px] cursor-pointer transition-all duration-300 hover:translate-y-[-5px] hover:shadow-2xl hover:border-[#4179f4]"
+          className="h-[130px] w-[370px] flex justify-center items-center border border-[#c8c8c8] rounded-[15px] cursor-pointer transition-all duration-300 hover:translate-y-[-5px] hover:shadow-2xl hover:border-[#4179f4]"
           onClick={() => setOpen(true)}
         >
           <div className="flex items-center">
@@ -85,7 +85,7 @@ export default function Features() {
         </button>
 
         <button
-          className="h-[130px] w-[400px] flex justify-center items-center border border-[#c8c8c8] rounded-[15px] cursor-pointer transition-all duration-300 hover:translate-y-[-5px] hover:shadow-2xl hover:border-[#4179f4]"
+          className="h-[130px] w-[370px] flex justify-center items-center border border-[#c8c8c8] rounded-[15px] cursor-pointer transition-all duration-300 hover:translate-y-[-5px] hover:shadow-2xl hover:border-[#4179f4]"
           onClick={() => setOpen(true)}
         >
           <div className="flex items-center">
