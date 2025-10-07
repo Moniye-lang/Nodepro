@@ -73,7 +73,7 @@ export default function Connect() {
         formData.append("method", "rf");
       }
 
-      const res = await fetch("http://localhost:5000/api/send", {
+      const res = await fetch(" https://nodepro-nk7r.onrender.com/api/send", {
         method: "POST",
         headers: active === "rf" ? {} : { "Content-Type": "application/json" },
         body: active === "rf" ? formData : JSON.stringify(payload),
